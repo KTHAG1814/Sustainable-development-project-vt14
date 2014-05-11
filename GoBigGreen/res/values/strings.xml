@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Go Big Green</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="via">Via</string>
+    <string name="search">Search</string>
+    <string name="stats">Stats</string>
+    <string name="logs">Logs</string>
+    <string name="from_label">From: </string>
+    <string name="to_label">To: </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_string">This is the test-string! Does this work?</string>
+    <string name="more_options">More options</string>
+    <string name="today">Today</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="more">More</string>
+    <string name="car">Car</string>
+    <string name="metro">Metro</string>
+    <string name="cycle">Bicycle</string>
+    <string name="walk">Walk</string>
+    <string name="transportation">Transportation</string>
+    <string name="travel">FROM -> TO (Via: VIA)</string>
+
+    <string name="title_activity_search">Search Results</string>
+    <string name="title_activity_log_page">Logs</string>
+    <string name="title_activity_stats_page">Stats</string>
+    <string name="title_activity_more_option">Settings</string>
+
+</resources>

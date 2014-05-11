@@ -1,0 +1,53 @@
+<!--
+	<ImageView
+        android:id="@+id/imageView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:tint="#55ff0000"
+		android:src="@drawable/kashi"
+	/>
+-->
+
+<!--
+	<TextView
+		android:id="@+id/from_info"
+		android:textSize="@dimen/font_size"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/from"
+        android:layout_alignParentLeft="true"
+		android:text="@string/from_label"
+	/>
+-->
+
+<!--
+	<TextView
+		android:id="@+id/to_info"
+		android:layout_margin="10dp"
+		android:textSize="@dimen/font_size"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+        android:layout_below="@id/from_info"
+        android:layout_toLeftOf="@+id/to"
+        android:layout_alignParentLeft="true"
+		android:text="@string/to_label"
+	/>
+-->
+
+	<Spinner
+        android:id="@+id/dates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/times"
+	/>
+
+	<Spinner
+        android:id="@id/times"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:layout_alignParentRight="true"
+	/>
+
